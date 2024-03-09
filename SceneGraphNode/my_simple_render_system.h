@@ -1,0 +1,38 @@
+#ifndef __MY_SIMPLE_RENDER_SYSTEM_H__
+#define __MY_SIMPLE_RENDER_SYSTEM_H__
+
+#include "my_device.h"
+#include "my_game_object.h"
+#include "my_pipeline.h"
+#include "my_camera.h"
+
+// std
+#include <memory>
+#include <vector>
+
+
+class MySimpleRenderSystem
+{
+public:
+	MySimpleRenderSystem(MyDevice& device, VkRenderPass renderPass);
+	~MySimpleRenderSystem();
+
+	MySimpleRenderSystem(const MySimpleRenderSystem&) = delete;
+	MySimpleRenderSystem& operator=(const MySimpleRenderSystem&) = delete;
+
+	//void renderGameObjects(VkCommandBuffer commandBuffer, std::vector<MyGameObject>& gameObjects, const MyCamera &camera);
+	void renderSceneGraph(VkCommandBuffer commandBuffer, std::shared_ptr<MySceneGraphNode>& sceneGraph, const MyCamera& camera);
+
+private:
+	void _createPipelineLayout();
+	void _createPipeline(VkRenderPass renderPass);
+	void _renderSceneGraph(VkCommandBuffer commandBuffer, std::shared_ptr<MySceneGraphNode>& node, glm::mat4 projView, glm::mat4 modelMat);
+
+	MyDevice&                   m_myDevice;
+
+	std::unique_ptr<MyPipeline> m_pMyPipeline;
+	VkPipelineLayout            m_vkPipelineLayout;
+};
+
+#endif
+

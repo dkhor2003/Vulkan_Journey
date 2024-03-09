@@ -4,7 +4,7 @@
 
 
 DEBUG = -g
-APPNAME = Assignment1.exe
+APPNAME = RenderDot.exe
 GLM_PATH = $(VULKAN_SDK)/include
 GLFW_PATH = $(VULKAN_SDK)/glfw-3.3.9.bin.WIN64/include
 GLFW_LIB_PATH = $(VULKAN_SDK)/glfw-3.3.9.bin.WIN64/lib-mingw-w64

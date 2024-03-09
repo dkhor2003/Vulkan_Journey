@@ -4,7 +4,7 @@
 
 
 DEBUG = -g
-APPNAME = Assignment1
+APPNAME = RenderDot
 GLM_PATH = $(VULKAN_SDK)/include
 GLFW_PATH = $(VULKAN_SDK)/glfw-3.3.9.bin.MACOS/include
 GLFW_LIB_PATH = $(VULKAN_SDK)/glfw-3.3.9.bin.MACOS/lib-x86_64

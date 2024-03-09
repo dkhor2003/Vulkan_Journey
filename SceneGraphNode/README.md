@@ -50,7 +50,7 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
             -> Hit the "2" key to rotate the objects at the current scene graph node respective to the y-axis of the objects
             -> Hit the "3" key to rotate the objects at the current scene graph node respective to the z-axis of the objects
 
-    - Hit "ESC" key to quit the program
+    - Hit `ESC` key to quit the program
 
 ## Creativity Features
     - I added some black colored edges to each side of the cube to make them more animated. 

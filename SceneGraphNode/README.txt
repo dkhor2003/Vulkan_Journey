@@ -2,12 +2,12 @@ This program renders 4 cubes in 3d space, in which users can interact with the c
 
 A sample view of the program in action can be found in window_screenshot.png 
 
-## Compiling the program
+##Compiling the program
     1. In the terminal, first type in the command: `make -f .\Makefile-win shader` to compile the shader program
     2. In the terminal, type in the command: `make -f .\Makefile-win` to compile the .exe program
     3. Run the program by using the command: .\Assignment3.exe
 
-## Interacting with the Program
+##Interacting with the Program
     - The cubes are ordered in terms of this scene graph at the start of the program
                    
                                                      *ROOT
@@ -47,6 +47,6 @@ A sample view of the program in action can be found in window_screenshot.png
 
     - Hit "ESC" key to quit the program
 
-## Creativity Features
+##Creativity Features
     - I added some black colored edges to each side of the cube to make them more animated. 
     - In addition to translating the cubes in 3d-space, I've added the feature to rotate the cubes as well. 

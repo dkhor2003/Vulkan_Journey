@@ -4,14 +4,10 @@ This program renders 4 cubes in 3d space, in which users can interact with the c
 ## Program Demo
 https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-955e-2f60240648e0 
 
-![Demo](./SceneGraphNodeDemo.mp4)
-
-<video autoplay><source src="/SceneGraphNodeDemo.mp4" type="video/mp4">Your browser does not support the video tag.</video>
-
 ## Compiling the program
-    1. In the terminal, first type in the command: `make -f .\Makefile-win shader` to compile the shader program
-    2. In the terminal, type in the command: `make -f .\Makefile-win` to compile the .exe program
-    3. Run the program by using the command: .\Assignment3.exe
+1. In the terminal, first type in the command: `make -f .\Makefile-win shader` to compile the shader program
+2. In the terminal, type in the command: `make -f .\Makefile-win` to compile the .exe program
+3. Run the program by using the command: `.\SceneGraphNode.exe`
 
 ## Interacting with the Program
     - The cubes are ordered in terms of this scene graph at the start of the program

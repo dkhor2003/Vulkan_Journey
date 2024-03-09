@@ -1,6 +1,7 @@
 This program renders 4 cubes in 3d space, in which users can interact with the cubes by moving or rotating them. It also has a feature where users can move the camera to look at different perspectives of the four cubes. 
 
-A sample view of the program in action can be found in window_screenshot.png 
+## Program Demo
+![](./SceneGraphNodeDemo.mp4)
 
 ## Compiling the program
     1. In the terminal, first type in the command: `make -f .\Makefile-win shader` to compile the shader program

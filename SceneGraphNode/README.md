@@ -4,7 +4,7 @@ This program renders 4 cubes in 3d space, in which users can interact with the c
 ## Program Demo
 https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-955e-2f60240648e0 
 
-![Demo](/SceneGraphNodeDemo.mp4)
+![Demo](./SceneGraphNodeDemo.mp4)
 
 <video autoplay><source src="/SceneGraphNodeDemo.mp4" type="video/mp4">Your browser does not support the video tag.</video>
 

@@ -22,10 +22,12 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
 
     ```mermaid
     graph TD;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
+        *ROOT-->GROUP1;
+        *ROOT-->GROUP2;
+        GROUP1-->CUBE1;
+        GROUP1-->CUBE2;
+        GROUP2-->CUBE3;
+        GROUP2-->CUBE4;
     ```
 
 - Hit `P` key to print the current scene graph setting in the console. 

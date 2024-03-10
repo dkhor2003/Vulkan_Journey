@@ -11,15 +11,6 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
 
 ## Interacting with the Program
 - The cubes are ordered in terms of this scene graph at the start of the program
-                   
-                                                     *ROOT
-                                                    /      \
-                                                GROUP1     GROUP2
-                                               /     \     /    \
-                                          CUBE1   CUBE2  CUBE3  CUBE4
-
-    where the * sign indicates the current scene graph node. Applying transformation on the current scene graph node applies the transformation on all the leaf nodes (cubes) that are descendants of the current scene graph node. Hit the `N` key to traverse and assign the next node to be the current scene graph node in a pre-order manner. 
-
     ```mermaid
     graph TD;
         *ROOT-->GROUP1;
@@ -29,6 +20,8 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
         GROUP2-->CUBE3;
         GROUP2-->CUBE4;
     ```
+
+    where the * sign indicates the current scene graph node. Applying transformation on the current scene graph node applies the transformation on all the leaf nodes (cubes) that are descendants of the current scene graph node. Hit the `N` key to traverse and assign the next node to be the current scene graph node in a pre-order manner. 
 
 - Hit `P` key to print the current scene graph setting in the console. 
 

@@ -45,7 +45,7 @@ public:
 private:
 	void _loadGameObjects();
 
-	MyWindow                           m_myWindow{ WIDTH, HEIGHT, "Assignment 3" };
+	MyWindow                           m_myWindow{ WIDTH, HEIGHT, "Scene Graph Node" };
 	MyDevice                           m_myDevice{ m_myWindow };
 	MyRenderer                         m_myRenderer{ m_myWindow, m_myDevice };
 

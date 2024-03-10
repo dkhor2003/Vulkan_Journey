@@ -1,7 +1,8 @@
 # Pong
-This program reproduces the very first video game introduced by Atari in 1972 called "<a href="https://en.wikipedia.org/wiki/Pong">Pong</a>". Basically, there are two paddles and a ball. The ball will bounce around the window, and the user control the paddles using the keyboard button described in the "Interacting with the Program" section.
+This program reproduces the very first video game introduced by Atari in 1972 called "<a href="https://en.wikipedia.org/wiki/Pong">Pong</a>", but in a much more simpler version. Basically, there are two paddles and a ball. The ball will bounce around the window, and the user control the paddles using the keyboard button described in the "Interacting with the Program" section.
 
-A sample view of the program in action can be found in pong_screenshot.png 
+## Program Demo
+https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/00b4250c-4a9c-41ec-86b3-367c4486ac6e 
 
 ## Compiling the program
     1. In the terminal, first type in the command: `make -f .\Makefile-win shader` to compile the shader program

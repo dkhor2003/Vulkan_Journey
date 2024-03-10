@@ -29,7 +29,7 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
 
 - There are two modes of moving objects, you can switch the modes by hitting the `SPACE` key.  
 
-    1. Move the camera
+    1. <ins>**Move the camera**</ins<>
         - Hit the `A` key to move the camera to the left 
         - Hit the `D` key to move the camera to the right
         - Hit the `W` key to move the camera forward 
@@ -41,7 +41,7 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
         - Hit the &uarr; arrow key to turn the camera view towards the top
         - Hit the &darr; arrow key to turn the camera view towards the bottom
 
-    2. Move the cubes
+    2. <ins>**Move the cubes**</ins>
         - Hit the &larr; arrow key to move the objects at the current scene graph node to the left
         - Hit the &rarr; arrow key to move the objects at the current scene graph node to the right
         - Hit the &uarr; arrow key to move the objects at the current scene graph node to the top

@@ -29,7 +29,7 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
 
 - There are two modes of moving objects, you can switch the modes by hitting the `SPACE` key.  
 
-    1. <ins>**Move the camera**</ins<>
+    1. <ins>**Move the camera**</ins>
         - Hit the `A` key to move the camera to the left 
         - Hit the `D` key to move the camera to the right
         - Hit the `W` key to move the camera forward 

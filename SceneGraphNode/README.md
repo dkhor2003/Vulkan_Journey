@@ -6,8 +6,8 @@ https://github.com/dkhor2003/Vulkan_Journey/assets/120704027/9e300a94-312f-4c45-
 
 ## Compiling the program
 1. Use command `make -f .\Makefile-win shader` to compile the shader program
-2. Use command: `make -f .\Makefile-win` to compile the .exe program
-3. Run the program by using the command: `.\SceneGraphNode.exe`
+2. Use command `make -f .\Makefile-win` to compile the .exe program
+3. Run the program by using the command `.\SceneGraphNode.exe`
 
 ## Interacting with the Program
 - The cubes are ordered in terms of this scene graph at the start of the program

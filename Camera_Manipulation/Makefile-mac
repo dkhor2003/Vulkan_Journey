@@ -1,0 +1,29 @@
+########################################################################
+####################### Makefile Template ##############################
+########################################################################
+
+
+DEBUG = -g
+APPNAME = Camera_Manipulation
+GLM_PATH = $(VULKAN_SDK)/include
+GLFW_PATH = $(VULKAN_SDK)/glfw-3.3.9.bin.MACOS/include
+GLFW_LIB_PATH = $(VULKAN_SDK)/glfw-3.3.9.bin.MACOS/lib-x86_64
+CFLAGS = -std=c++17 $(DEBUG) -I. -I$(VULKAN_SDK_PATH)/include -I$(GLM_PATH) -I$(GLFW_PATH)
+LDFLAGS = -L$(VULKAN_SDK)/lib -L$(GLFW_LIB_PATH) -lvulkan -lglfw
+SOURCES = main.cpp my_application.cpp my_camera.cpp my_device.cpp my_game_object.cpp my_keyboard_controller.cpp\
+	my_model.cpp my_pipeline.cpp my_renderer.cpp my_simple_render_system.cpp my_swap_chain.cpp my_window.cpp
+RUNSCRIP = ./compile-mac.bat
+DEFINES = __MAC_OS__
+
+$(APPNAME): *.cpp
+	g++ -D$(DEFINES) $(CFLAGS) -o $(APPNAME) $(SOURCES) $(LDFLAGS)
+
+shader: 
+	chmod 755 $(RUNSCRIP)
+	$(RUNSCRIP)
+
+run: $(APPNAME)
+	.$(APPNAME)
+
+clean:
+	rm -f $(APPNAME)
